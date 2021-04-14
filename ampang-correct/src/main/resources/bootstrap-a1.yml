@@ -1,0 +1,10 @@
+server:
+  port: 7031
+spring:
+  cloud:
+    nacos:
+      discovery:
+        metadata:
+          version: 1.0
+          region: dev
+          env: env1
